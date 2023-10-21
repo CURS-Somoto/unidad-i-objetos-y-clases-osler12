@@ -19,9 +19,9 @@ class Program
     static void Main()
     {
         // Crear varios objetos Estudiante
-        Estudiante estudiante1 = new Estudiante("Juan", 20, "Matemáticas");
-        Estudiante estudiante2 = new Estudiante("María", 22, "Historia");
-        Estudiante estudiante3 = new Estudiante("Pedro", 19, "Biología");
+        Estudiante estudiante1 = new Estudiante("Liiz", 17, "Matemáticas");
+        Estudiante estudiante2 = new Estudiante("Ricardo", 19, "fisica");
+        Estudiante estudiante3 = new Estudiante("Jose", 18, "Quimica");
 
         // Acceder a las propiedades de los objetos
         Console.WriteLine("Estudiante 1: Nombre - " + estudiante1.Nombre + ", Edad - " + estudiante1.Edad + ", Curso - " + estudiante1.Curso);
